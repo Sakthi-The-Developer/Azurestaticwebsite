@@ -21,4 +21,4 @@ jobs:
               --account-name ykrwebstorage123 \
               --destination \$web \
               --source . \
-              --account-key "${{ secrets.e6+FdvfGnSv1RL8v/3h2yd0CWYsBpAdwy2kSw4ROzfzXFWMJPGbzAqnmOpLWLA4wsyktD0hhRd2v+AStcUNEag== }}"
+              --account-key "${{ secrets.AZURE_STORAGE_KEY }}"
