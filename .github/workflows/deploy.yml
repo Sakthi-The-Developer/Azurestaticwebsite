@@ -19,6 +19,6 @@ jobs:
           inlineScript: |
             az storage blob upload-batch \
               --account-name ykrwebstorage123 \
-              --destination '$web' \
+              --destination \$web \
               --source . \
               --account-key "${{ secrets.AZURE_STORAGE_KEY }}"
